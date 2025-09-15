@@ -1,7 +1,7 @@
 # Команда PNOD_1 - Airlines Customer satisfaction
 
 Распределение ролей в команде:
-- Рината: product_manager
+- Рената: product_manager
 - Александр: project_manager
 - Елизавета: data_analyst
 - Иван: data_engineer
