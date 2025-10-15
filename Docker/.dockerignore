@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+*.DS_Store
+.venv/
+venv/
+.git/
+.gitignore
+.idea/
+.vscode/
+hf_cache/

@@ -1,0 +1,15 @@
+services:
+  review-analyzer:
+    build: .
+    image: review-analyzer:latest
+    ports:
+      - "8000:8000"
+    environment:
+      HF_HOME: /hf_cache
+      HF_HUB_ENABLE_HF_TRANSFER: "1"
+    volumes:
+      - hf_cache:/hf_cache
+    restart: unless-stopped
+
+volumes:
+  hf_cache:
